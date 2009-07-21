@@ -5,7 +5,7 @@ Release: 	%mkrel 1
 License: 	GPLv2+
 Group:		System/Base
 Source0:	http://wireless.kernel.org/download/%{name}/%{name}-%{version}.tar.bz2
-URL:		http://git.sipsolutions.net/?p=rfkill.git
+URL:		http://wireless.kernel.org/en/users/Documentation/rfkill
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
