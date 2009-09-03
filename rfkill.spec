@@ -1,7 +1,7 @@
 Name:		rfkill
 Summary:	Simple /dev/rfkill userspace tool
 Epoch:		1
-Version:	0.2
+Version:	0.3
 Release: 	%mkrel 1
 License: 	GPLv2+
 Group:		System/Base
