@@ -1,7 +1,7 @@
 Name:		rfkill
 Summary:	Simple /dev/rfkill userspace tool
 Epoch:		1
-Version:	0.3
+Version:	0.4
 Release: 	%mkrel 1
 License: 	GPLv2+
 Group:		System/Base
@@ -45,4 +45,4 @@ rm -rf %{buildroot}
 %attr(0755,root,root) %{_bindir}/%{name}
 %config(noreplace) %{_sysconfdir}/pam.d/%{name}
 %config(noreplace) %{_sysconfdir}/security/console.apps/%{name}
-%{_mandir}/man1/%{name}.1.*
+%{_mandir}/man8/%{name}.8.*
