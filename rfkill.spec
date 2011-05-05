@@ -2,7 +2,7 @@ Name:		rfkill
 Summary:	Simple /dev/rfkill userspace tool
 Epoch:		1
 Version:	0.4
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 License: 	GPLv2+
 Group:		System/Base
 Source0:	http://wireless.kernel.org/download/%{name}/%{name}-%{version}.tar.bz2
