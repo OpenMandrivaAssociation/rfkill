@@ -1,4 +1,2 @@
 sources:
-  "rfkill-0.4.tar.bz2:"	fccabf5a272ac2891f24dc35449dc6f4c45ff44b
-  "rfkill.consoleapp:"	1bc2d686a9143738cf8264fb3b9b97410fe200cb
-  "rfkill.pam:"	6197949701135c0e21c9b3d60f31421e0e8475af
+  "rfkill-0.4.tar.bz2": fccabf5a272ac2891f24dc35449dc6f4c45ff44b
