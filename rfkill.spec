@@ -5,7 +5,7 @@ Version:	0.5
 Release:	1
 License:	GPLv2+
 Group:		System/Base
-Source0:	http://wireless.kernel.org/download/%{name}/%{name}-%{version}.tar.bz2
+Source0:	http://wireless.kernel.org/download/%{name}/%{name}-%{version}.tar.xz
 Source1:	%{name}.pam
 Source2:	%{name}.consoleapp
 URL:		http://wireless.kernel.org/en/users/Documentation/rfkill
