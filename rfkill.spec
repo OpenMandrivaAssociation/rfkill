@@ -1,8 +1,8 @@
 Name:		rfkill
 Summary:	Simple /dev/rfkill userspace tool
 Epoch:		1
-Version:	0.4
-Release:	6
+Version:	0.5
+Release:	1
 License:	GPLv2+
 Group:		System/Base
 Source0:	http://wireless.kernel.org/download/%{name}/%{name}-%{version}.tar.bz2
@@ -22,16 +22,16 @@ userspace beginning with 2.6.31 series kernels.
 %make
 
 %install
-%{makeinstall} \
+%makeinstall \
 	PREFIX=%{buildroot} \
 	BINDIR=%{buildroot}/sbin \
 	MANDIR=%{buildroot}/%{_mandir}
 
 # Consolehelper
-%{__mkdir_p} %{buildroot}%{_bindir}
-%{__ln_s} consolehelper %{buildroot}%{_bindir}/%{name}
-%{__install} -m 0644 %{SOURCE1} -D %{buildroot}%{_sysconfdir}/pam.d/%{name}
-%{__install} -m 0644 %{SOURCE2} -D %{buildroot}%{_sysconfdir}/security/console.apps/%{name}
+mkdir -p %{buildroot}%{_bindir}
+ln -s consolehelper %{buildroot}%{_bindir}/%{name}
+install -m 0644 %{SOURCE1} -D %{buildroot}%{_sysconfdir}/pam.d/%{name}
+install -m 0644 %{SOURCE2} -D %{buildroot}%{_sysconfdir}/security/console.apps/%{name}
 
 %files
 %doc README
