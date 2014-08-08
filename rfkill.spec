@@ -19,7 +19,7 @@ userspace beginning with 2.6.31 series kernels.
 %setup -q
 
 %build
-%make
+%make CC=%{__cc}
 
 %install
 %makeinstall \
